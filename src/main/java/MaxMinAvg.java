@@ -1,3 +1,6 @@
+/**
+ * Заполнить массив случайными числами и вывести максимальное, минимальное и среднее.
+ */
 public class MaxMinAvg {
     public static void main(String[] args) {
         int n = 100;
@@ -6,8 +9,8 @@ public class MaxMinAvg {
             array[i] = Math.random();
         }
 
-        double min = array[0];
         double max = array[0];
+        double min = array[0];
         double average = 0;
         double sum = 0;
         for (int i = 0; i < array.length; i++) {
@@ -19,7 +22,7 @@ public class MaxMinAvg {
             }
             sum += array[i];
         }
-        average = sum/ array.length;
+        average = sum / array.length;
 
         System.out.println(min);
         System.out.println(max);

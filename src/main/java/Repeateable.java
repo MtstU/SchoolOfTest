@@ -1,7 +1,7 @@
 /**
  * Программа должна найти и вывести повторяющийся символ в слове "Hello"
  */
-public class Repeteable {
+public class Repeateable {
     public static void main(String[] args) {
 
         String string = "Hello";
